@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayasree Gopi || Portfolio</title>
+    <link rel="icon" href="img/images (9).png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+</head>
+
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">JS</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+               
+            </ul>
+            <div class="theme-toggle" id="theme-toggle">
+                <div class="toggle-container">
+                    <i class="fas fa-sun sun-icon"></i>
+                    <div class="toggle-switch">
+                        <div class="toggle-circle"></div>
+                    </div>
+                    <i class="fas fa-moon moon-icon"></i>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-image-container">
+                <img src="img/Gemini_Generated_Image_drfrhkdrfrhkdrfr.png" alt="Jayasree Gopi Image" class="hero-image" />
+            </div>
+
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Jayasree G</span>
+                </h1>
+                <p class="hero-subtitle">Front-End Developer</p>
+                <p class="hero-description">
+                    Designing responsive & User Friendly Websites by leverage my technical Skills.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="ready.pdf" class="btn btn-secondary" download>
+                        <span>Download CV</span>
+                        <i class="fas fa-file-lines"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/jayasree127" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/jayasree-gopi-442660282" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:ecejayasree43@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Front-End Developer with practical experience in building responsive
+                        and user-friendly interfaces using HTML, CSS, and JavaScript.I focus on Designing
+                        interactive and attractive web pages with upskilling my technical skills day by day.  
+                    </p>
+                    <p>
+                        Dynamic and self-motivated B.E. in Electronics and communication Engineering with
+                        a strong foundation in technical skills and excellent interpersonal skills.
+                        I'm passionate about career with focus on leveraging technology and continuous Learning.        
+                    </p>      
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="8+">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="20+">0</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="6">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-timeline">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>B.E.Electronics and communication Engineering</h4>
+                                <p>R P Sarathy Institute of Technology, Salem</p>
+                                <span class="timeline-date">2021 - 2025</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>H.S.C</h4>
+                                <p>Government Girls Higher Secondary Section School, Salem</p>
+                                <span class="timeline-date">2020 - 2021</span>  
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>S.S.L.C</h4>
+                                <p>Government Girls Higher Secondary Section School, Salem</p>
+                                <span class="timeline-date">2018 - 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Showcasing my work and creativity</p>
+            </div>
+            <div class="projects-grid">
+                <a href="https://github.com/jayasree127/MyFinalYearProject.git" target="_blank" class="project-card"
+                    data-visible="true">
+                    <div class="project-image">
+                        <img src="img/IMG_20250617_093421_394.jpg" alt="" >
+                        <div class="project-overlay">
+                            <div class="project-link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Github Link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PharmaNext</h3>
+                        <p class="project-description">
+                            Designed System Architecture and features to develop automated medicine
+                            vending System for safe outpatients with real-time monitoring (IOT).  
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">IOT</span>
+                            <span class="tech-tag">ESP32</span>
+                            <span class="tech-tag">Arduino Uno</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/jayasree127/Summer_Website.git" target="_blank" class="project-card" data-visible="true">
+                    <div class="project-image">
+                        <img src="img/Screenshot (70).png" alt="">
+                        <div class="project-overlay">
+                            <div class="project-link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Github Link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Summer Class Website</h3>
+                        <p class="project-description">
+                            Designed a creative,responsive website for summer course registration.
+                            Applied HTML & CSS to build creative course catalogue with flexible layout.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/jayasree127/MyCalc_website.git" target="_blank" class="project-card"
+                    data-visible="true">
+                    <div class="project-image">
+                        <img src="img/Screenshot (68).png" alt="">
+                        <div class="project-overlay">
+                            <div class="project-link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Github Link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Responsive Calc Website</h3>
+                        <p class="project-description">
+                             Implemented a simple responsive Calc website with
+                             sleek user-friendly design and functionality.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/jayasree127/Online-Learning-Website-.git" target="_blank" class="project-card" data-visible="true">
+                    <div class="project-image">
+                        <img src="img/Screenshot (71).png" alt="">
+                        <div class="project-overlay">
+                            <div class="project-link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Github Link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Online Examination Website</h3>
+                        <p class="project-description">
+                             Created and mainly focused in designing live quiz website
+                             followed by responsive course catalogue,download animated e-certificate 
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/jayasree127/E-commerce_website.git" target="_blank" class="project-card"
+                    data-visible="true">
+                    <div class="project-image">
+                        <img src="img/Screenshot (69).png" alt="">
+                        <div class="project-overlay">
+                            <div class="project-link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Github Link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Website</h3>
+                        <p class="project-description">
+                             Responsive E-commerce website with user-friendly layout and flex-box layouts 
+                             for effective appearance of the sources.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://jayasree127.github.io./Mini-book/" target="_blank" class="project-card"
+                    data-visible="true">
+                    <div class="project-image">
+                        <img src="img/Screenshot (67).png" alt="">
+                        <div class="project-overlay">
+                            <div class="project-link-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Github Link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mini Book</h3>
+                        <p class="project-description">
+                             Developed a book mark website to make notes of the desired contents,
+                             and delete/add based on requirement with responsive and attractive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+
+                 
+            </div>
+
+            <div class="show-more-container">
+                <button class="btn btn-primary show-more-btn" id="show-more-btn">
+                    <span>Show More Projects</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-html5-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-css3-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-javascript-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-react-original colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">Interpersonal Skills</span>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-typescript-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">Creative thinking</span>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item">
+                                <div class="skill-icon-container">
+                                    <i class="devicon-typescript-plain colored skill-icon"></i>
+                                </div>
+                                 
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">Problem Solving</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-typescript-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name"> Active Team Player</span>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-tailwindcss-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">Fiction Reading Enthusiast</span>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-java-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">C Programming</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-javascript-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Development Tools</h3>
+                    <ul class="tools-list"></ul>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-git-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">Eclipse IDE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-github-original colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">GitHub</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-container">
+                                <i class="devicon-vscode-plain colored skill-icon"></i>
+                            </div>
+                            <div class="skill-content">
+                                <div class="skill-info">
+                                    <span class="skill-name">VS Code</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>ecejayasree43@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9876543210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Jayasree Gopi. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/jayasree127" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/jayasree-gopi-442660282" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init('GoSWofP-qsQp-3sT4');
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
